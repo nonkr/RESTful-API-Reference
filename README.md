@@ -96,9 +96,9 @@ RESTful-api-reference
         
 
 #### 参考
-[http://www.360doc.com/content/14/0523/09/15870680_380120012.shtml]()
-[https://developer.github.com/v3/]()
-[http://developer.openstack.org/api-ref.html]()
+* [http://www.360doc.com/content/14/0523/09/15870680_380120012.shtml]()
+* [https://developer.github.com/v3/]()
+* [http://developer.openstack.org/api-ref.html]()
 
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
