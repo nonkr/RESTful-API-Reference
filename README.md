@@ -1,4 +1,4 @@
-RESTful-api-reference
+RESTful-API-Reference
 =====================
 
 [RFC 2119][]中的`必须(MUST)`，`不可(MUST NOT)`，`建议(SHOULD)`，`不建议(SHOULD NOT)`，`可以/可能(MAY)`等关键词将在本规范中用来做一些解释性的描述。
@@ -23,8 +23,17 @@ RESTful-api-reference
 1. URI中的事务`建议`使用小写的复数形式，例如：`GET /users`
 1. API的身份认证应该使用OAuth2.0框架
 1. 服务器返回的数据格式，应该尽量使用JSON，避免使用XML，但也应该支持XML
-2. 返回的时间统一使用[ISO 8601][]格式`YYYY-MM-DDTHH:MM:SSZ`
+2. 返回的时间统一使用[ISO 8601][]格式`YYYY-MM-DDTHH:MM:SSZ`，如`2004-05-03T17:30:08+08:00`
 3. POST，PATCH，PUT和DELETE请求的参数应用JSON编码放在请求体中，并用`Content-Type: application/json`指明
+4. 排序字段使用`sort_by={field}&order=asc`
+5. 分页字段使用`page={no}&page_size={no}`
+
+
+#### Client Error
+
+
+#### 超媒体(Hypermedia)
+> 返回的数据可能包含`*_url`的参数，指向到其他的资源
 
 
 
