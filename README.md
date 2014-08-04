@@ -99,27 +99,27 @@ RESTful-api-reference
 
 #### HTTP Status Code
 Code | Text
-- | -
-200 | OK
-201 | Created
-202 | Accepted
-203 | Non-Authoritative Information
-204 | No Content
-205 | Reset Content
-206 | Partial Content
-301 | Moved Permanently
-302 | Found
-303 | See Other
-304 | Not Modified
-307 | Temporary Redirect
-400 | Bad Request
-401 | Unauthorized
-403 | Forbidden
-404 | Not Found
-405 | Method Not Allowed
-409 | Conflict
-500 | Internal Server Error
-502 | Bad Gateway
+---- | ----
+200  | OK
+201  | Created
+202  | Accepted
+203  | Non-Authoritative Information
+204  | No Content
+205  | Reset Content
+206  | Partial Content
+301  | Moved Permanently
+302  | Found
+303  | See Other
+304  | Not Modified
+307  | Temporary Redirect
+400  | Bad Request
+401  | Unauthorized
+403  | Forbidden
+404  | Not Found
+405  | Method Not Allowed
+409  | Conflict
+500  | Internal Server Error
+502  | Bad Gateway
 
 
 
